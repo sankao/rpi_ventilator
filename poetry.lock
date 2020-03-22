@@ -238,6 +238,14 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 version = "1.14.0"
 
 [[package]]
+category = "main"
+description = "Python bindings for Linux SPI access through spidev"
+name = "spidev"
+optional = false
+python-versions = "*"
+version = "3.4"
+
+[[package]]
 category = "dev"
 description = "Measures number of Terminal column cells of wide-character codes"
 name = "wcwidth"
@@ -264,7 +272,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["pathlib2", "unittest2", "jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "bc8e64f0179db06113046241901249d20d143422029ee72b63f85147393ae9dd"
+content-hash = "0823989cab2f38eee51f111f42133081f211185849d58b4fa81f8c71e8255933"
 python-versions = "^2.7"
 
 [metadata.files]
@@ -347,6 +355,9 @@ scandir = [
 six = [
     {file = "six-1.14.0-py2.py3-none-any.whl", hash = "sha256:8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"},
     {file = "six-1.14.0.tar.gz", hash = "sha256:236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a"},
+]
+spidev = [
+    {file = "spidev-3.4.tar.gz", hash = "sha256:4314e52f573d95233c907f307558893313a8a606e197e77bb711526b0e179e80"},
 ]
 wcwidth = [
     {file = "wcwidth-0.1.8-py2.py3-none-any.whl", hash = "sha256:8fd29383f539be45b20bd4df0dc29c20ba48654a41e661925e612311e9f3c603"},

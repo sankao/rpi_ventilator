@@ -6,6 +6,9 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^2.7"
+"rpi.gpio" = "^0.7.0"
+pi-plates = "^6.2"
+spidev = "^3.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.6"
